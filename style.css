@@ -1,0 +1,583 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242428;
+    overflow-x: hidden;
+    color: white;
+}
+
+
+.navbar{
+    
+    padding: 20px 20px;
+}
+
+nav{
+   color: white;
+}
+
+
+.navbar a {
+    font-weight: 500;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    gap: 4vw;
+    flex-wrap: wrap;
+}
+
+.hero .text-part{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.hero .text-part button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 1vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+}
+
+.hero .text-part button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px white;
+}
+
+.hero .anime-pic img{
+    height: 90vh;
+    border-radius: 40% 50% 50% 10%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+}
+
+.page2{
+    display: flex;
+    gap: 4vw;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+}
+
+.page2 .text{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+.page2 .text h1{
+    font-size: 4vw;
+}
+
+.page2 .text button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 1vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+}
+
+.page2 .text button:hover{
+
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px white;
+
+}
+
+.page2 .character img{
+    height: 90vh;
+    border-radius: 40% 50% 10% 60%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+
+}
+
+
+.page3{
+    display: flex;
+    gap: 4vw;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+}
+
+.page3 .text{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+.page3 .text h1{
+    font-size: 4vw;
+}
+
+.page3 .text button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 1vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+}
+
+.page3 .text button:hover{
+
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px white;
+
+}
+
+.page3 .character img{
+    height: 90vh;
+    border-radius: 40% 50% 60% 10%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+
+}
+
+.ctc{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: solid white 1px;
+    margin-top: 10px;
+}
+
+.ctc h1{
+    font-size: 4vw;
+}
+
+.ctc button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 1vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+
+}
+
+@media (max-width:600px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        background-color: #A3F96E;
+    }
+
+    .navbar a{
+        color: black;
+    }
+.hero{
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+   
+}
+
+.hero .text-part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.hero .text-part h1{
+    font-size: 10vw;
+}
+
+.hero .text-part button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 4vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+}
+
+.hero .text-part button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px white;
+}
+
+.hero .anime-pic {
+    width: 100%;
+}
+.hero .anime-pic img{
+    margin: 1px 40px;
+    height: 41vh;
+    border-radius: 40% 50% 50% 10%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+    
+}
+
+
+.page2{
+  
+    display: flex;
+    gap: 2vw;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+}
+
+.page2 .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+.page2 .text h1{
+    font-size: 10vw;
+}
+
+.page2 .text button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 4vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+}
+
+.page2 .text button:hover{
+
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px white;
+
+}
+
+.page2 .character img{
+    height: 40vh;
+    border-radius: 40% 50% 10% 60%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+
+}
+
+.page2 .character{
+    width: 100%;
+}
+
+
+.page3{
+    display: flex;
+    gap: 2vw;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+    
+}
+
+.page3 .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+.page3 .text h1{
+    font-size: 7vw;
+}
+
+
+.page3 .character img{
+    margin: 1px 40px;
+    height: 40vh;
+    border-radius: 40% 50% 60% 10%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+
+}
+
+.page3 .character{
+    width: 100%;
+   
+}
+
+.ctc{
+   
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: solid white 1px;
+    margin-top: 10px;
+}
+
+.ctc h1{
+    font-size: 8vw;
+}
+
+.ctc button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 4vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+
+}
+
+
+
+
+}
+
+@media (max-width:768px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        background-color: #A3F96E;
+    }
+
+    .navbar a{
+        color: black;
+        font-size: 4vw;
+    }
+.hero{
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+   
+}
+
+.hero .text-part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.hero .text-part h1{
+    font-size: 10vw;
+}
+
+.hero .text-part button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 4vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+}
+
+.hero .text-part button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px white;
+}
+
+.hero .anime-pic {
+    width: 100%;
+}
+.hero .anime-pic img{
+    margin: 1px 40px;
+    height: 42vh;
+    border-radius: 40% 50% 50% 10%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+    
+}
+
+.page2{
+  
+    display: flex;
+    gap: 2vw;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+}
+
+.page2 .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+.page2 .text h1{
+    font-size: 10vw;
+}
+
+.page2 .text button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 4vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+}
+
+.page2 .text button:hover{
+
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px white;
+
+}
+
+.page2 .character img{
+    height: 42vh;
+
+    margin: 10px 40px;
+    border-radius: 40% 50% 10% 60%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+
+}
+
+.page2 .character{
+    width: 100%;
+}
+
+
+.page3{
+    display: flex;
+    gap: 2vw;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+    
+}
+
+.page3 .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+.page3 .text h1{
+    font-size: 7vw;
+}
+
+
+.page3 .character img{
+    margin: 1px 40px;
+    height: 40vh;
+    border-radius: 40% 50% 60% 10%;
+    filter: drop-shadow(0px 0px 2000px rgba(255, 255, 255, 0.271));
+    border: solid black;
+    box-shadow: 5px 5px black;
+
+}
+
+.page3 .character{
+    width: 100%;
+   
+}
+
+.ctc{
+   padding: 40px 20px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: solid white 1px;
+    margin-top: 10px;
+}
+
+.ctc h1{
+    font-size: 8vw;
+}
+
+.ctc button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid black;
+    background-color: #A3F96E;
+    font-size: 4vw;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+    transition: background-color ease .5s;
+
+}
+
+
+
+
+}
